@@ -1,0 +1,33 @@
+{
+  "name": "helloclock",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0",
+    "@fitbit/sdk-cli": "^1.6.0"
+  },
+  "fitbit": {
+    "appUUID": "be55c655-c8bb-4cf7-8273-9f9351311d36",
+    "appType": "clockface",
+    "appDisplayName": "helloclock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+	  "access_user_profile"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

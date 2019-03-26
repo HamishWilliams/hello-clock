@@ -1,0 +1,41 @@
+<svg class="background">
+  <text id="helloclockLabel" />
+  <text id="batteryLabel" />
+  <text id="heartrateLabel" />
+  <text id="timeLabel"/>
+  <text id="activityLabel" />
+  <text id="caloriesLabel" />
+  <text id="stepsLabel" />
+  <text id="distanceLabel" />
+  <text id="floorsLabel" />
+
+  <image href="stat_hr_solid_24px.png" x="100%-30" y="10%-20" width="24" height="24" fill="white" />
+  
+  /* activity icons */
+  <g class="color3 rings" fill="#32547a">
+    <image x="9" y="100%-52" width="24" height="24" href="stat_floors_solid_24px.png" fill="yellow" />
+    <image x="25%-2" y="100%-52" width="24" height="24" href="stat_dist_solid_24px.png" fill="yellow" />
+    <image x="50%-12" y="100%-52" width="24" height="24" href="stat_steps_solid_24px.png" fill="yellow" />
+    <image x="75%-23" y="100%-52" width="24" height="24" href="stat_cals_solid_24px.png" fill="yellow" />
+    <image x="100%-33" y="100%-52" width="24" height="24" href="stat_am_solid_24px.png" fill="yellow" />
+  </g>
+
+  /* still to-do portions of circles */
+  <g fill="#333333" class="rings">
+    <arc x="1" y="100%-60" width="39" height="39" fill="inherit" arc-width="2" start-angle="0" sweep-angle="360" />
+    <arc x="25%-10" y="100%-60" width="39" height="39" fill="inherit" arc-width="2" start-angle="0" sweep-angle="360" />
+    <arc x="50%-20" y="100%-60" width="39" height="39" fill="inherit" arc-width="2" start-angle="0" sweep-angle="360" />
+    <arc x="75%-31" y="100%-60" width="39" height="39" fill="inherit" arc-width="2" start-angle="0" sweep-angle="360" />
+    <arc x="100%-41" y="100%-60" width="39" height="39" fill="inherit" arc-width="2" start-angle="0" sweep-angle="360" />
+  </g>
+
+  /* done portions of circles */
+  <g class="color2 rings" fill="#5682b4">
+    <arc id="floorring" x="1" y="100%-61" width="40" height="40" fill="yellow" arc-width="4" start-angle="0" sweep-angle="0" />
+    <arc id="distancering" x="25%-10" y="100%-61" width="40" height="40" fill="yellow" arc-width="4" start-angle="0" sweep-angle="0" />
+    <arc id="stepring" x="50%-20" y="100%-61" width="40" height="40" fill="yellow" arc-width="4" start-angle="0" sweep-angle="0" />
+    <arc id="caloriering" x="75%-31" y="100%-61" width="40" height="40" fill="yellow" arc-width="4" start-angle="0" sweep-angle="0" />
+    <arc id="activering" x="100%-41" y="100%-61" width="40" height="40" fill="yellow" arc-width="4" start-angle="0" sweep-angle="0" />
+  </g>
+  
+</svg>
