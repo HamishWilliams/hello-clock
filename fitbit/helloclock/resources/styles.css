@@ -47,7 +47,7 @@
   font-family: System-Bold;
   text-length: 7;
   text-anchor: middle;
-  x: 21;
+  x: "100%-20";
   y: 100%;
   fill: white;
 }
@@ -57,7 +57,7 @@
   font-family: System-Bold;
   text-length: 15;
   text-anchor: middle;
-  x: "25%+10";
+  x: "75%-10";
   y: 100%;
   fill: white;
 }
@@ -77,7 +77,7 @@
   font-family: System-Bold;
   text-length: 15;
   text-anchor: middle;
-  x: "75%-10";
+  x: "25%+10";
   y: 100%;
   fill: white;
 }
@@ -87,7 +87,7 @@
   font-family: System-Bold;
   text-length: 7;
   text-anchor: middle;
-  x: "100%-20";
+  x: 21;
   y: 100%;
   fill: white;
 }
